@@ -17,14 +17,14 @@ export default () => (
                 <div className="title">airbeds</div>
             </nav>
             <div className="left-col">
-                <DateRange
+                {/* <DateRange
                     dataField="date_from"
                     componentId="DateRangeSensor"
                     title="When"
                     numberOfMonths={2}
                     queryFormat="basic_date"
                     initialMonth={new Date('04-01-2019')}
-                />
+                /> */}
 
                 <NumberBox
                     componentId="GuestSensor"
